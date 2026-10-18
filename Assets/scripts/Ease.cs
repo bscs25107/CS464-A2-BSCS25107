@@ -1,16 +1,11 @@
 using UnityEngine;
 
-public class Ease : MonoBehaviour
+public static class Ease
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public static float OutBack(float t)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        const float c1 = 1.70158f, c3 = c1 + 1f;
+        float u = t - 1f;
+        return 1f + c3 * u * u * u + c1 * u * u;
     }
 }

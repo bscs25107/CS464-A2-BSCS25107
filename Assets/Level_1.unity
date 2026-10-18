@@ -16553,12 +16553,32 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 3018090704587058265, guid: 8f0c4e313f5d64f4e9b635079c69b1d0, type: 3}
+      propertyPath: body
+      value: 
+      objectReference: {fileID: 1769441774}
+    - target: {fileID: 3018090704587058265, guid: 8f0c4e313f5d64f4e9b635079c69b1d0, type: 3}
       propertyPath: speed
-      value: 4
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3018090704587058265, guid: 8f0c4e313f5d64f4e9b635079c69b1d0, type: 3}
+      propertyPath: squashY
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3018090704587058265, guid: 8f0c4e313f5d64f4e9b635079c69b1d0, type: 3}
       propertyPath: jumpForce
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3018090704587058265, guid: 8f0c4e313f5d64f4e9b635079c69b1d0, type: 3}
+      propertyPath: jumpHeight
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3018090704587058265, guid: 8f0c4e313f5d64f4e9b635079c69b1d0, type: 3}
+      propertyPath: squashDuration
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3018090704587058265, guid: 8f0c4e313f5d64f4e9b635079c69b1d0, type: 3}
+      propertyPath: groundMask.m_Bits
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3268079845012982936, guid: 8f0c4e313f5d64f4e9b635079c69b1d0, type: 3}
       propertyPath: m_LocalPosition.x
